@@ -1,197 +1,223 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
+/* ------------------------------ HEADER ------------------------------ */
+
+.header {
+}
+.herder-nav {
+}
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo {
 }
 
-.logo-span-header {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+.header-nav-list {
 }
 
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.header-nav-item {
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-address {
+  font-style: normal;
 }
 
-.nav-link:active {
-    color: #404bbf;
+.header-address-list {
 }
 
-.adres {
-    font-style: normal
+.header-address-item {
 }
 
-.adres-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
+.header-address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.adres-link:hover,
-.adres-link:focus {
-    color: #404bbf;
+.header-logo .logo-part {
+  color: #2e2f42;
 }
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+/* ------------------------------ ONE ------------------------------ */
+
+.section-h-second {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-h-third {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ------------------------------ BOSS ------------------------------ */
 
 .boss {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
-.title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+.boss-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
 
-.title-button {
-    font-family: "Roboto", sans-serif;
-    background: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer;
+.boss-title-btn {
+  cursor: pointer;
+  font-family: inherit;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
-.title-button:active {
-    background: #404bbf;
+.boss-title-btn:active {
+  background: #404bbf;
 }
 
-.title-button:hover,
-.title-button:focus {
-    background-color: #404BBF;
+.boss-title-btn:hover,
+.boss-title-btn:focus {
+  background-color: #404bbf;
 }
 
-.boss-ad {
-    background-color: #F4F4FD;
+/* ------------------------------ ADS ------------------------------ */
+.ads {
+}
+.ads-title {
+}
+.ads-list {
+}
+.ads-item {
+}
+.ads-subtitle {
+}
+.ads-text {
 }
 
-.items-ad {
-    background-color: #FFFFFF;
+/* ------------------------------ TEAM ------------------------------ */
+
+.team {
+  background-color: #f4f4fd;
 }
 
-.heading-ad {
-    text-transform: capitalize;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.text-ad {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.team-list {
 }
 
-.boss-team {
-    background-color: #F4F4FD;
+.team-item {
+  background-color: #ffffff;
 }
 
-.li-team {
-    background-color: #FFFFFF;
+.team-image {
 }
 
-.subtitle-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
+.team-subtitle {
 }
 
-.heading-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+.team-text {
 }
 
-.text-team {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
+/* ------------------------------ PORT ------------------------------ */
+
+.port {
 }
 
-.subtitle-port {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
+.port-title {
 }
 
-.heading-port {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.port-list {
 }
 
-.text-port {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.port-item {
 }
 
-.copy {
-    background-color: #2e2f42;
-}
-.logo-span-footer {
-    color: #f4f4fd;
+.port-item-image {
 }
 
-.copyright {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;    
+.port-item-subtitle {
+}
+
+.port-item-text {
+}
+
+/* ------------------------------ FOOTER ------------------------------ */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
