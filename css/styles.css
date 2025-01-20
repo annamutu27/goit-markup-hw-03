@@ -227,18 +227,23 @@ img {
 /* ------------------------------ ADS ------------------------------ */
 .ads {
 }
+
 .ads-title {
 }
+
 .ads-list {
   display: flex;
   gap: 24px;
 }
+
 .ads-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .ads-subtitle {
   margin-bottom: 8px;
 }
+
 .ads-text {
 }
 
@@ -338,7 +343,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.footer-container {
 }
